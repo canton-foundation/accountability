@@ -207,7 +207,7 @@ Email: **[accountability-ops@lists.sync.global](mailto:accountability-ops@lists.
 
 For broader ecosystem discussion:
 
-Email: **[accountability@lists.sync.global](mailto:accountability@lists.sync.global
+Email: **[accountability@lists.sync.global](mailto:accountability@lists.sync.global)**
 
 ---
 

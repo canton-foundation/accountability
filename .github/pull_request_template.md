@@ -25,7 +25,7 @@ reinstatement/<your-app-name>-<YYYY-MM-DD>.md
 The request should be prepared using:
 
 ```text
-templates/featured-app-reinstatement-request.md
+reinstatement/featured-app-reinstatement-request.md
 ```
 
 ---
