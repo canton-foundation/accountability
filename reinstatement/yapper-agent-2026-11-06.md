@@ -33,7 +33,7 @@
   * yapperagent-validator-1 (since May 2026): yapperagent-validator-1::122021ba12f7efa39e2a35ef041c84873097bad7e22e722087f4146daf8ef6092280
   * yapperagent-validator-2 (since 23 Sep 2026): yapperagent-validator-2::1220517cdae2be189627df7a3da4ab0776d748b03ef059f732d9da77177736a10d6f
   * yapperagent-validator-3 (since 23 Sep 2026): yapperagent-validator-3::1220de6d4afc0266438b1063ac95fd5c12ac72b2d59346399fc6207edea4f2402c6c
-* Other transaction-submitting PartyId(s), if applicable: Besides our own validators (validator-1, 2, and 3), the following partner validators are the ones we know transacted under our app tag. This is only what we know, not a complete list:
+* Other transaction-submitting PartyId(s), if applicable: Besides our own validators (validator-1, 2, and 3), the following partner validators are the ones we know transacted under our app tag:
 
   * voucherkita-validator-1::12207206c646d7e82891c2e72e3c5b2b8408620825703ebe928f9f8dccbe5009402f
   * dapro-mainnet-1::122047eeb459cabb246499f3166b4ea3d7f232272392e5557b7c9294e63e88c48a24
