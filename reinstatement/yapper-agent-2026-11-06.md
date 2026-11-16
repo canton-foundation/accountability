@@ -180,7 +180,7 @@ Reinstatement is subject to the CIP-0116 lock requirement.
   * [ ] Signed, pending completion
   * [ ] Pending signature
   * [ ] Not yet complete
-* Party or address for verification: 23d169c2-0909-4c70-81d1-1922de6febaa::12200ffe8e60d0afc0358f8bb08328a47e369c6ca6494f7fc991b448c283928db10f
+* Party or address for verification: [23d169c2-0909-4c70-81d1-1922de6febaa::12200ffe8e60d0afc0358f8bb08328a47e369c6ca6494f7fc991b448c283928db10f](https://ccview.io/party/23d169c2-0909-4c70-81d1-1922de6febaa%3A%3A12200ffe8e60d0afc0358f8bb08328a47e369c6ca6494f7fc991b448c283928db10f/)
 
 ---
 
