@@ -168,7 +168,7 @@ Reinstatement is subject to the CIP-0116 lock requirement.
 
   * [x] 5,000,000 CC for Featured App
   * [ ] 25,000,000 CC for Issuer
-* Amount segregated: 5,000,000 CC
+* Amount segregated: 5,000,000 CC, attributable to `yapp-apps`
 * Lock holder:
 
   * [ ] Applicant
