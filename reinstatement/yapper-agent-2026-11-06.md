@@ -65,7 +65,7 @@
 
   On the basis of that answer, we ran a private campaign in good faith, separate from the Featured App activity. After partners suggested using the backup validators, participant wallets on validators 2 and 3 (originally set up as backups) submitted CBTC transfers using our app tag. The validators are ours, but the 110 wallets on them are owned by partners. After that, we allowed partners to take part with their own validators. The number of participants started small and then grew on its own beyond our knowledge, so we do not know the exact number of participants or the other validators they may have used. The validators we know of are listed in the Identifiers section above.
 
-  Campaign rewards were distributed through revenue sharing on the proceeds, split 80% to partners and 20% to Yapper Agent. All 110 wallets and partner validators have stopped.
+  Campaign rewards were distributed through revenue sharing on the proceeds, split 80% to partners and 20% to Yapper Agent. All 110 wallets and the partner validators we know of have stopped.
 
   We configured validators 2 and 3 the same way as validator-1, using an automatic top-up methodology. Both did buy traffic (including validator-2: 160.14 CC at round 114411 and 116.21 CC at round 119469; validator-3: 160.14 CC at round 114411). Beyond that, we did not monitor traffic or how participants and partners transacted on these two validators, and we acknowledge that this was outside our oversight.
 
@@ -92,6 +92,7 @@ If yes, summarize the disputed calculation or source discrepancy: N/A. We agree 
 * 27 Oct 2026: The CBTC team asked us to explain our CBTC traffic and list the validators using our app tag. We replied the same day and began stopping the campaign.
 * 27 to 30 Oct 2026: Validator-3 stopped on 27 Oct and validator-2 wound down by 30 Oct.
 * 29 Oct 2026, 18:28 UTC: Featured App status paused.
+* 24 Nov 2026: Burn of 429,304 CC in total, consisting of Yapper's withheld rev share (194,796 CC) and BitSafe's own share (234,508 CC).
 
 ---
 
@@ -99,7 +100,7 @@ If yes, summarize the disputed calculation or source discrepancy: N/A. We agree 
 
 * Activity separation: We keep Yapper Agent's own activity and the private campaign separate. Yapper Agent's activity runs on validator-1 (the Featured App party), which actively buys traffic: 67,914.29 CC burned across 250 purchases over the last 90 days (8 Aug to 5 Nov 2026). The private campaign ran mainly on validators 2 and 3, and on the partner validators listed in the Identifiers section, with a reward wallet that has been kept separate since the 12 Oct 2026 payout.
 * Method: FA Overage Policy: excess markers = marker weight − USD burn (free traffic allowance not counted).
-* Period: from when the validator ratio (marker weight versus USD burn) first exceeded 1.15, which can only be pinned down once the marker weight data is available. For reference, the campaign ran at full rate from 23 Sep to 26 Oct 2026. If the committee applies the burn period from 1 Oct instead (Foundation to confirm), it is 1 Oct to 29 Oct 2026.
+* Period: the period and the final amount follow the committees' determination under the FA Overage Policy. For reference, the campaign ran at full rate from 23 Sep to 26 Oct 2026, and BitSafe's burn covers 1 Oct to 5 Nov 2026.
 * Traffic consumed vs purchased (source: CC View):
 
   | | Consumed | Purchased | % purchased |
@@ -107,10 +108,14 @@ If yes, summarize the disputed calculation or source discrepancy: N/A. We agree 
   | Validator-1 (own activity) | 14 to 16 MB per day | 0.5 to 2.9 MB per day | ~10.7% |
   | Validators 2 and 3 (campaign) | 12 to 14 MB per day each | small top-ups only | ~0.1 to 0.2% |
 
-* Sizing: the marker weight is attributed to the app tag, which only the CBTC team can see, so we could not derive it ourselves. We ask the CBTC team and the committee to share the marker weight per validator and the registry marker weight, so that the overage follows the policy formula. In the meantime, our conservative upper bound is 272,458.05 CC.
-* Excess amount burned: None yet.
-* Burn transaction hash: N/A, no burn has been made yet.
-* If not yet burned, explain status: Yapper Agent actively pays burn every day for its own activity. For the private campaign activity on validators 2 and 3, we did not monitor closely. Part of the campaign rewards has already been distributed to partners, so a direct burn of the full amount is not possible. We therefore put forward the remediation proposal below, which the committees may adjust.
+* Sizing: for reference, our conservative upper bound is 272,458.05 CC (the four payouts from the 21 to 27 Sep 2026 period onward), before deducting Yapper Agent's normal earnings through `yapp-apps`. Yapper's withheld rev share of 194,796 CC and BitSafe's share of 234,508 CC were burned on 24 Nov 2026, 429,304 CC in total. The marker weight is attributed to the app tag, which only the CBTC team can see, so the final figure follows the committees' determination, and we ask the CBTC team and the committee to share the marker weight per validator and the registry marker weight.
+* Excess amount burned (total): 429,304 CC on 24 Nov 2026, burned by BitSafe for Yapper:
+
+  * Yapper's withheld rev share (rewards BitSafe held and had not yet paid out to Yapper): 194,796 CC: https://data.looptech.io/transactions/12205da17dff8aa55b7d6c15c13d62dfb42b147b619f449ffe8ed79528bf704b03ef
+  * BitSafe's own share from Yapper's activity: 234,508 CC: https://data.looptech.io/transactions/1220d23593bdfc397f3e099fe649246af3b26085e270b9c2d16aca3e93062e80af5e
+
+* Burn transaction hash: see the two links above.
+* Burn status: The burns were carried out on 24 Nov 2026 (see the links above).
 
 Payout history (all weekly payouts received to date, per CC View):
 
@@ -130,7 +135,7 @@ Reading the timeline: the first payout was made on 2 Sep 2026 (for 24 to 30 Aug)
 
 The reward wallet was changed (the new wallet was created on 29 Sep and has been used since the 12 Oct payout) to keep campaign rewards separate from our regular activity and to make them easier to manage and distribute. The two larger payouts went to the new wallet listed above.
 
-Proposed remediation: We recognize that we cannot return the full amount at this time because part of the rewards has already been distributed to participants. As part of our responsibility to the Foundation, we propose that Yapper's rev share on CBTC rewards, which BitSafe has held since late October, be redirected to the burn, subject to the committee's approval. We will pay the remaining uncovered amount in a lump sum before reinstatement. If that option is not acceptable, as a fallback we are willing to accept periodic deductions of roughly 10% to 20% of each future Featured App reward until the total determined by the committees is covered. We leave the final amount and period to the committees under the FA Overage Policy, with a conservative upper bound of 272,458.05 CC.
+Next steps: We have completed the burns on 24 Nov 2026 (429,304 CC in total), and we'd appreciate the committees' guidance on how to proceed.
 
 ---
 
@@ -233,7 +238,7 @@ If yes: N/A
 ## Reviewer Notes
 
 * The applicant agrees with the CC View figures shared on 31 Oct 2026, including the total CBTC partner rewards of 288,449 CC.
-* Part of the campaign rewards has already been distributed to partners, so a direct burn of the full amount is not possible. We have put forward a remediation proposal above, which the committees may adjust.
+* Both burns were completed on 24 Nov 2026 (see Excess and Burn Status). We'd appreciate the committees' guidance on the next steps.
 * CIP-0116 lock: in place and verifiable at the address listed above.
 * For consideration, and as we have shared with FAAC through Dr. Amanda, Yapper Agent is preparing a token that we hope will broaden adoption on Canton. The token is on testnet and development is complete. The tokenomics (shared a few weeks ago) and the Daml contracts are being audited, and we are already in touch with an audit provider, Digital Asset, and several partners. The remaining step is registration, which was originally planned for last week but which we postponed until this situation is clearer. We understand that Featured App status and the token launch are separate matters, but clarity on the Featured App status remains important for our plans to move forward smoothly.
 * Note on terms: in this document, "partners" and "participants" refer to the same parties.
@@ -264,4 +269,4 @@ By submitting this request, the applicant confirms that the information provided
 * Name: Zamza Salim
 * Title: CEO
 * Organization: Yapper Agent
-* Date: 6 November 2026
+* Date: 25 November 2026
